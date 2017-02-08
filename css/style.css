@@ -1,0 +1,26 @@
+.one {
+    color: red;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.two {
+    color: blue;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.top {
+    position: relative;
+}
+
+.top div {
+    -webkit-transition: top 0.5s ease;
+    -moz-transition: top 0.5s ease;
+    -o-transition: top 0.5s ease;
+    transition: top 0.5s ease;
+}
